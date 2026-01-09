@@ -51,7 +51,40 @@ body {
   display: flex;
   
 }
+.cards .news-card img {
+  height: 150px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  object-fit: cover;
+}
 
+.newsbox {
+  background: #dfe5ff;
+  margin-bottom: 20px;
+
+  color: #0a0a3c;
+  border-radius: 10px;
+
+}
+
+#News_Text {
+  display: inline-block;   /* makes the box fit content */
+  background-color: #04044a;
+  color: white;
+  padding: 10px 20px;      /* spacing inside the box */
+  border-radius: 10px;     /* optional rounded corners */
+  margin-bottom: 20px;
+  font-size: 24px;         /* adjust font size as needed */
+}
+
+#newsimage{
+width: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+
+}
 
 
 .logo {
