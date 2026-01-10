@@ -19,6 +19,21 @@ body {
   margin-right: 5px;
 }
 
+#studentinfo img {
+  width: 200px;
+  height: 200px;       /* make it square */
+  object-fit: cover;
+  border-radius: 50%;  /* makes it a perfect circle */
+  padding-left: 5px;
+  padding-top: 5px;
+  border-color: #001ac0;
+  border-style: solid;
+  margin-right: 5px;
+}
+#studentinfo{
+  display: flex;
+align-items: center;}
+
 .links {
   text-decoration: none;
   color: white;
@@ -256,6 +271,7 @@ padding-bottom: 5px;
   color: white;
   margin-bottom: 8px;
 }
+
 
 
 
