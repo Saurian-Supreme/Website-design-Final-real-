@@ -86,7 +86,7 @@ align-items: center;}
 
 }
 
-#News_Text {
+.Page_Titel {
   display: inline-block;   
   background-color: #04044a;
   color: white;
@@ -110,6 +110,39 @@ width: 200px;
   flex-wrap: wrap; 
   margin-bottom: 20px;
 padding-bottom: 5px;
+}
+
+.AboutUs_box {
+  display: flex;               
+  gap: 30px;                   
+    
+  flex-wrap: wrap;  
+  height: 70%;           
+}
+
+.pillar {
+  background-color: #f5f5f5;  
+  padding: 5px;
+  border-radius: 30px;       
+
+  width: 300px;
+  
+  text-align: center;          /* center text */
+}
+
+.ContactUs_box{
+
+
+  background-color: #ff0000;
+
+  width: 100%;
+}
+
+.pillar img {
+  width: 100%;
+  height: auto;
+  border-radius:30px;
+  margin-bottom: 15px;
 }
 
 
