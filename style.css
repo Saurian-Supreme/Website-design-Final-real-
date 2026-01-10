@@ -19,6 +19,10 @@ body {
   margin-right: 5px;
 }
 
+.links {
+  text-decoration: none;
+  color: white;
+}
 
 .header-right {
   flex: 2;
