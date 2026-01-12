@@ -242,6 +242,46 @@ padding-bottom: 5px;
   border-radius: 6px;
 }
 
+.button-section {
+  position: relative;
+  margin-bottom: 40px;   
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+.button-row img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #1d0fdf;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 40px;}
+
+.arrow.right {
+  right: 90px;  
+}
+
+
 .course-info {
   flex: 1;
 }
