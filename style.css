@@ -78,12 +78,18 @@ align-items: center;}
 }
 
 .newsbox {
-  background: #dfe5ff;
+  background: #B3C2FF;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
 
   color: #0a0a3c;
   border-radius: 10px;
 
+}
+.newsbox h1{
+  padding-left: 90px;
 }
 
 .Page_Titel {
